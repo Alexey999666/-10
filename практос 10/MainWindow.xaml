@@ -25,7 +25,7 @@
             </MenuItem>
         </Menu>
         <StackPanel  Grid.Row="1">
-            <TextBlock Text="Введите массив через запятую" FontWeight="Bold" Foreground="Silver"/>
+            <TextBlock Text="Введите массив через запятую:" FontWeight="Bold" Foreground="Silver"/>
             <TextBox x:Name="tbArrayManually" TextWrapping="Wrap"  FontWeight="Bold" />
             <TextBlock Text="Сгенерированный массив:" FontWeight="Bold"  Foreground="Silver"/>
             <TextBlock x:Name="tblArrayAuto" TextWrapping="Wrap" FontWeight="Bold" Foreground="Silver" />
